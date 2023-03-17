@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Reporte Técnico}
+\author{Bernardo Rosas Moto}
+\date{March 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+El proyecto Hopfield es una técnica de redes neuronales que se utiliza para el reconocimiento de patrones. El objetivo de este proyecto es desarrollar una red neuronal capaz de reconocer estas figuras y distinguirlas entre sí, en este caso, se trabajará con figuras geométricas y se buscará reconocer 7 patrones diferentes.
+
+\section{Desarrollo}
+
+Para comenzar el proyecto, se realizó el cálculo de patrones a realizar multiplicando el numero de neuronas por 0.15, en mi caso use 49 neuronas y como resultado de la estimación de Hopfield es 7, para esto utilizamos una selección de 7 figuras geométricas diferentes, las cuales son cuadrado, rombo, cruz, corazón, hexágono, triangulo y paralelogramo. Se eligieron estas figuras debido a su simplicidad y facilidad de identificación. Una vez seleccionadas las figuras, se procedió a convertirlas en patrones, donde cada figura se representaba como una matriz de 1s y -1s. Cada figura se convirtió en una matriz de 7x7, de tal forma que cada elemento de la matriz representaba un píxel de la figura.
+Posteriormente, se utilizó la técnica de redes neuronales Hopfield, se procedió a realizar pruebas con diferentes patrones, con el objetivo de evaluar la capacidad de la red para reconocer figuras geométricas. Los resultados obtenidos fueron satisfactorios, ya que la red neuronal fue capaz de reconocer correctamente las 7 figuras geométricas, incluso en presencia de ruido en los patrones de entrada.
+
+\section{Conclusión}
+
+En conclusión, el proyecto Hopfield para el reconocimiento de figuras geométricas con 7 patrones fue exitoso, ya que fue capaz de reconocer estas figuras y distinguirlas entre sí. Los resultados obtenidos demuestran la efectividad de la técnica de redes neuronales Hopfield para el reconocimiento de patrones.
+
+\end{document}
