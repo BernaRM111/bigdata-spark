@@ -24,7 +24,7 @@ void weigths(int **W, int *x0, int *x1, int *x2, int *x3, int *x4, int *x5, int 
   for (int i=0; i<N; i++)
   for (int j=0; j<N; j++)
   {
-    W[i][j] = x0[i]*x0[j] + x1[i]*x1[j] + x2[i]*x2[j] + x3[i]*x3[j] + x4[i]*x4[j] + x5[i]*x5[j] + x6[i]*x6[j];
+    W[i][j] = x0[i]*x0[j] + x1[i]*x1[j] + x2[i]*x2[j] + x3[i]*x3[j] + x4[i]*x4[j] + x5[i]*x5[j] + x6[i]*x6[j] ;
   }
   for (int k=0; k<N; k++)
     W[k][k]=0;
@@ -83,7 +83,7 @@ int readfile(string file, int *v1, int col, int N)
     int row=0;
 
     while(infile >> a1 >> a2 >> a3 >> a4 >> a5 >> a6 >> a7) {
-        std::cout << a1 << a2 << a3 << a4 << a5 << a6 << a7<< endl;
+        std::cout << a1 << a2 << a3 << a4 << a5 << a6 << a7 << endl;
         v1[(row*col) + 0] = a1;
         v1[(row*col) + 1] = a2;
         v1[(row*col) + 2] = a3;
@@ -121,13 +121,13 @@ int main(void)
 
   cout << "iterations " << endl;
 
-  readfile("corazon.txt", x0,  col, N);
-  readfile("cruz.txt", x1,  col, N);
-  readfile("cuadrado.txt", x2,  col, N);
-  readfile("hexagono.txt", x3,  col, N);
-  readfile("paralelogramo.txt", x4,  col, N);
-  readfile("rombo.txt", x5,  col, N);
-  readfile("triangulo.txt", x6,  col, N);
+  //readfile("corazon.txt", x0,  col, N);
+  //readfile("cruz.txt", x1,  col, N);
+  //readfile("cuadrado.txt", x2,  col, N);
+  //readfile("hexagono.txt", x3,  col, N);
+  //readfile("paralelogramo.txt", x4,  col, N);
+  //readfile("rombo.txt", x5,  col, N);
+  //readfile("triangulo.txt", x6,  col, N);
 
   // pattern 0
 /*  x0[0] = 1;
