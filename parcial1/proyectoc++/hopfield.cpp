@@ -121,13 +121,13 @@ int main(void)
 
   cout << "iterations " << endl;
 
-  //readfile("corazon.txt", x0,  col, N);
-  //readfile("cruz.txt", x1,  col, N);
-  //readfile("cuadrado.txt", x2,  col, N);
-  //readfile("hexagono.txt", x3,  col, N);
-  //readfile("paralelogramo.txt", x4,  col, N);
-  //readfile("rombo.txt", x5,  col, N);
-  //readfile("triangulo.txt", x6,  col, N);
+  readfile("corazon.txt", x0,  col, N);
+  readfile("cruz.txt", x1,  col, N);
+  readfile("cuadrado.txt", x2,  col, N);
+  readfile("hexagono.txt", x3,  col, N);
+  readfile("paralelogramo.txt", x4,  col, N);
+  readfile("rombo.txt", x5,  col, N);
+  readfile("triangulo.txt", x6,  col, N);
 
   // pattern 0
 /*  x0[0] = 1;
